@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #ba3bff;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .stopwatch-container {
+    background: rgb(198, 240, 255);
+    padding: 100px;
+    border-radius: 40px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  
+  .stopwatch-container h1{
+    font-size: 50px;
+  }
+
+  #display {
+    font-size: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .buttons button {
+    font-size: 30px;
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .buttons button:hover {
+    background-color: gray;
+  }
+  
+  #laps {
+    margin-top: 20px;
+    text-align: left;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
+  #laps li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
